@@ -1,0 +1,86 @@
+.writeForm{
+    position: relative;
+    padding-top: 50px;
+    margin-left: 150px;
+    font-family: 'Varela Round', sans-serif;
+}
+.formGroup{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.writeImg{
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.formGroup{
+    margin-top: 12px;
+    width: 70vw;
+}
+.writeIcon{
+    font-size: 28px;
+    margin-right: 12px;
+    color: #b39656;
+}
+.writeTitle{
+    width: 65vw;
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+    color: #474719;
+}
+.writeTitle:focus{
+    outline-style: none;
+}
+.writeTitle::placeholder{
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+}
+.writeContent{
+    width: 70vw;
+    height: 350px;
+    border: none;
+    font-size: 25px;
+    resize: none;
+    margin: 25px 0;
+}
+.writeContent:focus{
+    outline-style: none;
+}
+.writeCatsChooser{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 60vw;
+    height: 60px;
+}
+.writeCatsChooser > span:first-child{
+    font-weight: 600;
+    color: #b39656;
+}
+.writeCatsChooser > span{
+    font-size: 20px;
+    margin: 8px;
+    line-height: 25px;
+}
+.ant-tag-checkable-checked {
+    background-color: #b39656;
+}
+.ant-tag-checkable:not(.ant-tag-checkable-checked):hover {
+    color: #b39656;
+}
+.ant-btn-primary{
+    margin-left: 450px;
+    background-color: #6ba97b;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    line-height: 25px;
+    height: 35px;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus
+{
+    background-color: #3a9b57;
+}

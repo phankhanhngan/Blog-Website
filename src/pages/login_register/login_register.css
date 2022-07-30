@@ -1,0 +1,64 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    display: flex;
+    align-items: center;
+    font-family: 'Lora', sans-serif;
+}
+.loginImg{
+    flex: 6;
+    width: 120px;
+}
+.label{
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #d0afa3;
+}
+.loginWrapper{
+    width: 460px;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    flex-direction: column;
+    flex: 6;
+}
+.ant-form-item .ant-row.ant-form-item-row{
+    display: flex;
+    justify-content: space-between;
+}
+.ant-col.ant-form-item-label .ant-form-item-required{
+    margin-right: 12px;
+    font-size: 20px;
+}
+.ant-btn.ant-btn-default.buttonLogin{
+    margin-top: 25px;
+    width: 50%;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #d0afa3;
+    color: white;
+    font-size: 20px;
+}
+.ant-btn.ant-btn-default.buttonLogin:focus{
+    opacity: 0.6;
+}
+.loginRegis{
+    margin-bottom: 25px;
+    color: #6ba97b;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.loginRegis.register{
+    margin-left: 115px;
+}
+.loginRegis.backToLogin{
+    margin-left: 250px;
+}

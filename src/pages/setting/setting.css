@@ -1,0 +1,63 @@
+.setting{
+    display: flex;
+}
+.settingLabel{
+    position: absolute;
+    display: flex;
+    margin: 40px 0 0 100px;
+    justify-content: space-between;
+    width: 60vw;
+}
+.settingLabel:first-child{
+    font-size: 30px;
+}
+.deleteSpan{
+    font-size: 20px;
+}
+.settingForm{
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.ant-form-item.settingProfilePic{
+    margin-top: 100px;
+}
+.settingImg{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 30%;
+    margin-right: 12px;
+}
+.ant-row {
+    align-items: center;
+    justify-content: center;
+}
+.ant-form-horizontal .ant-form-item-label {
+    text-align: left;
+    margin-right: 80px;
+}
+.ant-form-horizontal .ant-form-item-label > label{
+    font-size: 24px;
+}
+.ant-form-item-control-input .ant-input{
+    font-size: 20px;
+}
+.ant-btn.ant-btn-default{
+    background-color: #6ba97b;
+    color: white;
+    line-height: 25px;
+    height: 40px;
+    border-radius: 12px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+.ant-btn.ant-btn-default.buttonDelete{
+    border: 1px solid #ea6b6b;
+    background-color: transparent;
+    color: #ea6b6b;
+}
+.buttonUpdate{
+    margin-left: 400px;
+}
